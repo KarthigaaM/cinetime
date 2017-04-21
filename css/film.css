@@ -1,0 +1,222 @@
+ /*Header part aligned*/
+header {
+	background-color: #9C9492;
+	height:100px;
+	width: 100%;
+	position:fixed;        
+	top: 0px;
+	left: 0px;
+	z-index: 2;
+}
+#a {
+	display: inline-block;
+	height: 100%;
+	float: left;
+}
+
+/*Header image */
+#a img {
+	display:inline-block;
+	height:100%;
+	float: left;
+}
+#a p {
+	font-family: 'Lobster Two', cursive;
+	font-size: 50px;
+	display:inline-block;
+	float: left;
+	margin-top: 20px;
+	margin-left: 30px;
+}
+
+/*navigation part*/
+nav {
+	display: inline-block;
+	height: 100%;
+	float: left; 
+}
+nav ul {
+	height: 100%;
+	list-style-type: none;
+	margin-top: 40px;
+}
+nav ul li {
+	height: 100%;
+	display: inline-block;
+ }
+nav ul li a {
+	text-decoration: none;
+	color: gold;
+	margin-top: 25px;
+	margin-left: 100px;
+	font-size: 25px;
+}
+
+/*2nd navigation*/
+.plays {
+	background-color:black;
+	width: 100%;
+	height: 10%;
+	font-size: 10px;
+}
+.plays ul li a {
+	font-size: 23px;
+}
+
+/*Hero image section*/
+.hero img {
+	margin-top: 100px;
+	display: block;
+	cursor: pointer;
+	width: 100%;
+}
+
+/*container section*/
+.mov{
+	width: 960px;
+	height: 850px;
+	font-size: 19px;
+	font-family: 'Flamenco', cursive;
+}
+section p {
+	line-height:1.5em;
+}
+.mycontainer {
+	position: relative;
+	padding-top:5px;
+}
+
+/*Button*/
+.bu {
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 15px;
+	margin: 4px 2px;
+	cursor: pointer;
+	color: white;
+	background-color: black;
+}
+
+/*4&8 section*/
+#gc {
+	display:inline-block;
+	height:600px;
+	margin-top: 6px;
+}
+#gc h1 {
+	text-align: center;
+	text-decoration: underline;
+}
+.graph{
+	display:inline-block;
+	float:left;
+}
+.content p{
+	font-family: 'Flamenco', cursive;
+	display:inline-block;
+	font-size:18px;
+	float:right;
+	text-align: justify;
+}
+
+/*8&4 section*/
+.topmovies{
+	padding-top: 5px;
+}
+.topmovies h1,h2,h5{
+	margin-top:2px;
+	color:gold;
+}
+.topmovies p{
+	font-family: 'Flamenco', cursive;
+	font-size: 20px;
+}
+
+/*info section*/
+.info {
+	margin-top:50px;
+}
+.aboutus h1{
+	color:gold;
+}
+.aboutus p {
+	text-align: justify;
+	line-height: 1.6em;
+	font-size: 18px;
+	font-family: 'Flamenco', cursive;
+}
+.general {
+	margin-right:6px;
+}
+.general h1 {
+	margin-left:35px;
+	color: gold;
+}
+.general ul li {
+	list-style-type: none;
+	
+}
+.general ul li a{
+	text-decoration: none;
+	line-height:1.8em;
+	color: black;
+	font-size: 20px;
+	font-family: 'Flamenco', cursive;
+	
+}
+.cinemas {
+	margin-left: 1px;
+}
+.cinemas h1 {
+	margin-left:35px;
+	color: gold;
+}
+.cinemas ul li {
+	list-style-type: none;
+	
+}
+.cinemas ul li a{
+	text-decoration: none;
+	line-height: 1.8em;
+	color: black;
+	font-size: 20px;
+	font-family: 'Flamenco', cursive;
+	
+}
+.contactus {
+	margin-top: 20px;
+}
+.contactus p {
+	font-size: 15px;
+	line-height:0.8em;
+	font-family: 'Flamenco', cursive;
+}
+.contactus i {
+	height:17px;
+	width: 20px;
+	color: black;
+}
+
+/*footer section*/
+.foot {
+	text-align: center;
+	background-color: black;
+	color: white;
+	width:100%;
+  }
+.foot p {
+	font-size: 15px;
+  }
+
+/*index1 css starts*/  
+.all img{
+	padding-top:50px;
+	cursor: pointer;
+  }
+.all h1,h3 {
+	line-height:10px;
+	font-family: 'Flamenco', cursive;
+  }
+  
+   
